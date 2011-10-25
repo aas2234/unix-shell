@@ -1,0 +1,19 @@
+Introduction:
+=============
+
+The shell allows for executing commands by forking a child and running the
+command within the child process. It has the following salient features:
+	- handles input lines of indefinite length
+	- cd to any directory; cd ..; cd -; cd
+	- pushd, popd, dirs as in bash
+	- path +/- <PATH>; path
+
+Compilation Steps:
+================
+
+make
+
+References:
+==========
+1. Trim leading and trailing whitespace from a string:
+	http://stackoverflow.com/questions/122616/

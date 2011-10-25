@@ -1,0 +1,67 @@
+Test Run:
+=========
+
+abhi-sh:/home/abhi/OS/hw1/hmwk1/shell $ 
+abhi-sh:/home/abhi/OS/hw1/hmwk1/shell $ 
+abhi-sh:/home/abhi/OS/hw1/hmwk1/shell $ 
+abhi-sh:/home/abhi/OS/hw1/hmwk1/shell $ cd ..
+abhi-sh:/home/abhi/OS/hw1/hmwk1 $ cd -
+abhi-sh:/home/abhi/OS/hw1/hmwk1/shell $ cd 
+abhi-sh:/home/abhi $ cd /
+abhi-sh:/ $ cd /tmp
+abhi-sh:/tmp $ ls     
+ERROR: No such file or directory
+abhi-sh:/tmp $ path + /bin
+appended /bin to path
+abhi-sh:/tmp $ path + /usr/bin
+appended /usr/bin to path
+abhi-sh:/tmp $ path
+/bin:/usr/bin:
+abhi-sh:/tmp $ ls -al
+total 76
+drwxrwxrwt 18 root root 4096 2011-09-19 23:17 .
+drwxr-xr-x 24 root root 4096 2011-07-28 02:11 ..
+drwx------  3 abhi abhi 4096 2011-09-17 00:34 calibre_0.7.18_tmp_brRbU4
+drwx------  2 abhi abhi 4096 2011-09-16 23:09 .com.google.Chrome.DmhieR
+drwx------  2 abhi abhi 4096 2011-09-16 14:53 .esd-1000
+drwx------  2 gdm  gdm  4096 2011-09-16 14:53 .esd-113
+drwxrwxrwt  2 root root 4096 2011-09-16 14:53 .ICE-unix
+drwx------  2 abhi abhi 4096 2011-09-16 14:53 keyring-boSiNk
+drwx------  2 abhi abhi 4096 2011-09-19 23:06 orbit-abhi
+drwx------  2 gdm  gdm  4096 2011-09-16 14:53 orbit-gdm
+drwx------  2 abhi abhi 4096 2011-09-16 16:28 pulse-Lp864L5Kbmmg
+drwx------  2 gdm  gdm  4096 2011-09-16 14:53 pulse-PKdhtXMmr18n
+drwx------  2 abhi abhi 4096 2011-09-16 14:53 ssh-LQxHxn2679
+-rw-------  1 abhi abhi    0 2011-09-17 13:45 tpxYgq1Q
+drwx------  2 abhi abhi 4096 2011-09-16 14:53 virtual-abhi.zlWvEj
+drwx------  3 abhi abhi 4096 2011-09-17 13:45 vmware-abhi
+prw-------  1 abhi abhi    0 2011-09-17 13:44 vmware-abhi.0
+drwxrwxrwt  2 root root 4096 2011-09-16 14:53 VMwareDnD
+drwx------  2 root root 4096 2011-09-16 14:52 vmware-root
+-r--r--r--  1 root root   11 2011-09-16 14:52 .X0-lock
+drwxrwxrwt  2 root root 4096 2011-09-16 14:52 .X11-unix
+abhi-sh:/tmp $ path - /bin
+removed /bin from path
+abhi-sh:/tmp $ path
+/usr/bin:
+abhi-sh:/tmp $ pushd /tmp
+/tmp /tmp
+abhi-sh:/tmp $ pushd /hone
+ERROR: No such file or directory
+/tmp /tmp
+abhi-sh:/tmp $ pushd /home
+/home /tmp /tmp
+abhi-sh:/home $ pushd
+/tmp /home /tmp
+abhi-sh:/tmp $ popd
+Changing dir to /home
+/home /tmp
+abhi-sh:/home $ popd
+Changing dir to /tmp
+/tmp
+abhi-sh:/tmp $ popd
+popd: Directory stack empty
+abhi-sh:/tmp $ dirs
+/tmp
+abhi-sh:/tmp $
+
